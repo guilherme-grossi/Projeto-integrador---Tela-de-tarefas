@@ -153,9 +153,8 @@ label #sidebar_btn:hover{
 
 }
 
-#form{
+main form{
 
-    justify-content: center;
-    align-items: center;
+    display: flex;
     
 }
