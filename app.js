@@ -7,6 +7,7 @@ const logger = require('morgan');
 const indexRouter = require('./src/routes/index');
 
 
+
 const app = express();
 
 // view engine setup
@@ -20,6 +21,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+
+
 
 
 // catch 404 and forward to error handler

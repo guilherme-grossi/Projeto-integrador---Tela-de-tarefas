@@ -69,7 +69,9 @@ header{
     background: #193446;
     transition: 0.5s;
     transition-property: left;
-
+    margin-top: 100px;
+    border-top-right-radius: 15px;
+    
 }
 
 /* aqui quand estuver a imagem do usuario */
@@ -98,7 +100,7 @@ header{
     padding-left: 40px;
     box-sizing: border-box;
     transition: 0.5s;
-    
+        
 
 }
 
@@ -129,32 +131,6 @@ label #sidebar_btn{
 label #sidebar_btn:hover{
 
     color: #51b3ec; 
-
-}
-
-#check:checked ~ .sidebar{
-
-    left: -190px;
-
-}
-
-#check:checked ~ .sidebar a span{
-
-    display: none;
-
-}
-
-#check:checked ~ .sidebar a{
-
-    font-size: 20px;
-    margin-left: 170px;
-    width: 80px;
-
-}
-
-#check{
-
-    display: none;
 
 }
 
