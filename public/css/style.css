@@ -16,17 +16,6 @@ body{
 }
 
 
-
-header{
-
-    /* position: fixed;
-    background: #2e3be6;
-    padding: 20px;
-    width:100%;
-    height: 30px; */
-
-}
-
 .left h3 {
 
     color: #fff;
@@ -35,28 +24,6 @@ header{
     font-size: 22px;
     font-weight: 800;
     
-}
-
-
-.sair_btn{
-
-    padding: 5px;
-    background: #51b3ec;
-    text-decoration: none;
-    float: right;
-    margin-top: -30px;
-    margin-right: 40px;
-    border-radius: 2px;
-    font-size: 15px;
-    font-weight: 500;
-    color: #fff;
-
-}
-
-.sair_btn:hover{
-
-    background: #4a9fcf;
-
 }
 
 .sidebar{
@@ -74,7 +41,7 @@ header{
     
 }
 
-/* aqui quand estuver a imagem do usuario */
+/* aqui quand estiver a imagem do usuario */
 
 /* .sidebar .image{
     width: 100px;
