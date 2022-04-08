@@ -2,13 +2,15 @@ const testeControllers = {
 
     create: (request, response) => {
 
-        console.log(request.body);
+    
 
         response.render('index', {
             title: 'express'
-        })
-    }
+        });
+    },
 }
+
+module.export = testeControllers;
 
 
 // aqui esta quebrado
